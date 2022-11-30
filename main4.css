@@ -1,0 +1,34 @@
+@font-face {
+    font-family: virilica;
+    src: url(/fonts/Robtronika-4Bq8p.ttf);
+}
+
+@font-face {
+    font-family: jiro;
+    src: url(/fonts/RobtronikaItalic-0Wqn9.ttf);
+}
+
+
+.main {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.main .gg h1 {
+    font-size: 7em;
+    color: #010109;
+    font-family: jiro;
+}
+
+.h1{
+    padding: 0;
+    margin: 0;
+}
+
+.main a{
+    text-decoration: none;
+    color: #010109;
+    font-family: virilica;
+    font-size: 1.4em;
+    border-bottom: 3px solid #010109;
+}

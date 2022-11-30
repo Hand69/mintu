@@ -1,0 +1,156 @@
+@font-face {
+    font-family: virilica;
+    src: url(/fonts/Robtronika-4Bq8p.ttf);
+}
+
+@font-face {
+    font-family: jiro;
+    src: url(/fonts/RobtronikaItalic-0Wqn9.ttf);
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    max-width: 1600px;
+    margin: 0px auto;
+}
+
+header .logo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+header .logo img{
+    width: 250px;
+    height: 200px;
+    margin-top: -90px;
+}
+
+header .logo a{
+    font-size: 1.5em;
+    font-family: virilica; 
+    color: #010109;
+    text-decoration: none;
+    margin: 0px 30px;
+}
+
+.header_menu2{
+    display: none;
+}
+
+header .logo .header_menu a:hover, 
+.logo .header_menu a.active{
+    border-bottom: solid 2px #032e23;
+}
+
+header .logo .header_input input{
+    width: 230px;
+    height: 60px;
+    text-align: center;
+    background-color: #fff;
+    color: #010109;
+    font-size: 0.9em;
+    font-family: virilica;
+    border: solid 1px #010109;
+    cursor: pointer;
+}
+
+
+/* FOOTER */
+
+footer{
+    border-top: 2px solid #010109;
+    margin-top: 100px;
+}
+
+footer .footer{
+    max-width: 1600px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footer .footer_logo img{
+    width: 250px;
+    height: 200px;
+}
+
+footer .footer .footer_contact{
+    margin-top: 100px;
+    display: flex;
+}
+
+footer .footer .footer_contact .footer_contact_a1 a, .footer_contact_a2 a{
+    margin: 20px 50px;
+    font-family: virilica;
+    font-size: 1.4em;
+    color: #010109;
+    text-decoration: none;
+}
+
+footer .footer .footer_contact .footer_contact_a1 a img, .footer_contact_a2 a img{
+    background-color: #010109;
+    margin-right: -10px;
+}
+
+.menu_burgerr{
+    display: none;
+}
+
+.popap.active{
+    display: block;
+    width: 100%;
+    height: 100vh;
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+}
+
+.menu_burger{
+    display: none;
+}
+
+.menu_burger.active{
+    display: block;
+    width: 70%;
+    height: 70%;
+    background-color: #fff;
+    border: solid 2px #010109;
+    border-radius: 0px 0px 0px 40%;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    z-index: 2;
+    text-align: center;
+}
+
+.menu_burger1{
+    margin-top: 45%;
+}
+
+.menu_burger1 a{
+    color: #010109;
+    font-size: 1em;
+    text-decoration: none;
+    font-family: virilica;
+}
+
+.menu_burger1 input{
+    width: 60px;
+    height: 20px;
+    font-size: 0.4em;
+    color: #010109;
+    border: solid 1px #010109;
+    font-family: virilica;
+    background-color: #fff;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.menu_burger1 div{
+    margin-top: 20px;
+}

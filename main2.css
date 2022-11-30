@@ -1,0 +1,65 @@
+main .main{
+    text-align: center;
+}
+
+main .main .main_foto_block label{
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    border: solid 1px #111;
+    margin: 0px auto;
+}
+
+main .main .main_h1_2{
+    font-size: 2em;
+    color: #010109;
+    font-family: jiro;
+}
+
+main .main .main_foto_block input{
+    display: none;
+}
+
+.label{
+    display: flex;
+    margin: 0px auto;
+    max-width: 120px;
+}
+
+.label label:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+main .main_foto{
+    overflow: hidden;
+    display: flex;
+    width: 1000px;
+    height: 600px;
+    margin: 30px auto;
+    border: solid 1px #010109;
+}
+
+main .main_foto img{
+    width: 1000px;
+    height: 600px;
+}
+
+#r1:checked ~ #h1{
+    margin-left: 0px;
+    transition: all 1s;
+}
+
+#r2:checked ~ #h1{
+    margin-left: -100%;
+    transition: all 1s;
+}
+
+#r3:checked ~ #h1{
+    margin-left: -200%;
+    transition: all 1s;
+}
+
+#r1:checked ~ #f1{
+    background-color: #010109;
+}

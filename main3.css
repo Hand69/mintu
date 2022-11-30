@@ -1,0 +1,53 @@
+main .main .main_h1_3{
+    text-align: center;
+}
+
+main .main .main_h1_3 h1{
+    font-size: 3em;
+    color: #010109;
+    font-family: jiro;
+}
+
+main .main .block_glavn{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: 0px auto;
+    margin-top: 100px;
+}
+
+main .main .block_glavn .block{
+    margin-top: 40px;
+}
+
+main .main .block_glavn .block a{
+    font-size: 1.5em;
+    color: #010109;
+    font-family: virilica;
+    text-decoration: none;
+}
+
+main .main .block_glavn .block a img{
+    widows: 30px;
+    height: 30px;
+    background-color: #010109;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+main .main .block_glavn .block_glavn2 h2{
+    font-size: 1.7em;
+    color: #010109;
+    font-family: jiro;
+}
+
+main .main .block_glavn .block_glavn2 p{
+    font-size: 1.2em;
+    color: #010109;
+    font-family: virilica;
+}
+
+main .main .block_glavn .block_glavn2 p span{
+    font-weight: bold;
+}

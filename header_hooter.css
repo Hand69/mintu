@@ -1,11 +1,11 @@
 @font-face {
     font-family: virilica;
-    src: url(/fonts/Robtronika-4Bq8p.ttf);
+    src: url(fonts/Robtronika-4Bq8p.ttf);
 }
 
 @font-face {
     font-family: jiro;
-    src: url(/fonts/RobtronikaItalic-0Wqn9.ttf);
+    src: url(fonts/RobtronikaItalic-0Wqn9.ttf);
 }
 
 body{
